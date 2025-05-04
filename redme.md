@@ -4,8 +4,8 @@ ts config install
 tsc --init
 
 ```
-npm init -y
-npm i ts-node
 
-package.json --> "dev": "ts-node-dev --respawn --transpile-only qna.ts"
+[ts-node](https://www.npmjs.com/package/ts-node-dev)
+
+ts file: ts-node-dev --respawn --transpile-only ./module3
 
